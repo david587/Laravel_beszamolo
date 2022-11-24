@@ -1,7 +1,7 @@
 @extends( "layouts.master" )
 
 @section( "content" )
-
+<h1>Szerkesztés</h1>
 @if( $errors->any() )
     <ul>
         @foreach( $errors->all() as $error )
@@ -31,4 +31,5 @@
         <button type="submit">Küldés</button>
     </p>
 </form>
+
 @endsection

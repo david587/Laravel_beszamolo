@@ -1,6 +1,8 @@
 @extends( "layouts.master" )
 
-@section( "content" )
+@section( "content")
+<h1>Új termék</h1>
+
 
 @if( $errors->any() )
     <ul>
